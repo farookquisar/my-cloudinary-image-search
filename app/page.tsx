@@ -12,7 +12,7 @@ cloudinary.config({
 export default async function Home({ searchParams }: { searchParams: any }) {
   const query = searchParams.query;
   
-  let expression = 'folder=my-image-gallery';
+  let expression = 'folder=next-xata-cloudinary-ecom-dec23';
 
   if ( query ) {
     expression = `${expression} AND ${query}`;
